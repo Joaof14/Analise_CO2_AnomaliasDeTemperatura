@@ -21,7 +21,9 @@ O arquivo `MMQ_statsModel` aplica o Método dos Mínimos Quadrados (MMQ) nos tr�
 
 ## Status
 
-As análises dos resultados ainda estão em desenvolvimento.
+As análises dos resultados dos métodos já descritos ja foram realizadas e estarão disponíveis em breve.
+Novas metodologias estão sendo implementadas e serão listadas quando realizadas.
+
 
 ## Referência relevantes para o estudo:
 [1] CORTESE, Tatiana Tucunduva P.; NATALINI, Gilberto. Mudanças Climáticas: Do Global ao Local. Barueri: Editora Manole, 2014. E-book. ISBN 9788520446607. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788520446607/. Acesso em: 27 jul. 2024.
