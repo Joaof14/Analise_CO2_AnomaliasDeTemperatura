@@ -1,5 +1,54 @@
 # Clima_MMQ
 
+This project aims to analyze historical data on average atmospheric CO2 concentration (in parts per million - ppm) and Temperature Anomalies in three scenarios:
+1. CO2 concentration over time.
+2. Temperature anomalies over time.
+3. Temperature anomalies versus CO2 concentration.
+
+## Data
+
+The data used for analysis can be found in references  and . The datasets were processed and prepared using the `pandas` library, as described in the Jupyter Notebook file - Data Preparation.
+
+## Methodology
+
+The `MMQ_statsModel` notebook applies the Least Squares Method (LSM) to the three scenarios listed, using different fitting functions and discussing the results. To verify the significance of results, the following tests are applied:
+- Student's t-test for coefficients.
+- F-test for the models.
+
+## Tools Used
+
+- **Libraries**: `statsmodels` for statistical modeling, `numpy` for data transformation, and `matplotlib` for graphical visualization.
+
+## Status
+
+The analyses of the described methods have already been performed and will be available soon. New methodologies are currently being implemented and will be listed as they are completed.
+
+## Key References for the Study
+ CORTESE, Tatiana Tucunduva P.; NATALINI, Gilberto. Climate Change: From Global to Local. Barueri: Editora Manole, 2014. E-book. ISBN 9788520446607.
+
+ SILVA, Cleyton Martins da; ARBILLA, Graciela. Atmospheric Emissions and Climate Change. 1st ed. Rio de Janeiro: Freitas Bastos, 2022. E-book.
+
+ Neide B. Franco. Numerical Calculus. Pearson Prentice Hall, São Paulo, 2006.
+
+ Marcia A. G. Ruggiero and Vera L. R. Lopes. Numerical Calculus: Theoretical and Computational Aspects. Pearson Education do Brasil, São Paulo, 2nd edition, 2013.
+
+ S. Arenales and A. Darezzo. Numerical Calculus: Learning with Software Support. São Paulo: Cengage Learning, 2nd edition 2015.
+
+ MORETTIN, Pedro A.; BUSSAB, Wilton de O. Basic Statistics. São Paulo: SRV Editora LTDA, 2017. E-book. ISBN 9788547220228.
+
+ MONTGOMERY, Douglas C.; PECK, Elizabeth A.; VINING, G. Geoffrey. Introduction to Linear Regression Analysis. 5th ed. Hoboken: Wiley, 2012.
+
+ Climate at a Glance | Global Time Series | National Centers for Environmental Information (NCEI). Available at: <https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe/land_ocean/1/0/1979-2024>. Accessed on: Aug 27, 2024.
+
+ Global Monitoring Laboratory – Carbon Cycle Greenhouse Gases. Available at: <gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_gl.txt>. Accessed on: Aug 27, 2024.
+
+
+
+
+
+
+# Clima_MMQ (lang: pt-Br)
+
 Este projeto em desenvolvimento busca analisar dados históricos da média de Concentração de CO2 na atmosfera (em partes por milhão - ppm) e Anomalias de Temperatura em três cenários:
 1. Concentração de CO2 ao longo do tempo.
 2. Anomalias de Temperatura ao longo do tempo.
